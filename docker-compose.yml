@@ -1,8 +1,0 @@
-version: '2'
-services:
-  app:
-    build: .
-    working_dir: /go/src/github.com/alexandrevicenzi/unchained
-    command: go test ./...
-    volumes:
-     - .:/go/src/github.com/alexandrevicenzi/unchained
