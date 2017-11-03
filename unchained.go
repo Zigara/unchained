@@ -4,7 +4,7 @@ package unchained
 import (
 	"fmt"
 	"strings"
-	"github.com/Zigara/unchained/pbkdf2"
+	"github.com/zigara/unchained/pbkdf2"
 )
 
 func hashAlgorithm(encoded string) string {
